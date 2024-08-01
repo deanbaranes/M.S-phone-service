@@ -1,0 +1,26 @@
+<head>
+    <title>Checkout Page</title> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body id="order">
+    <header>
+        <h1>M.S phone service - מכשירים ניידים ואביזרים נלווים</h1>
+    </header>
+<main>
+<form>
+        <h1>פרטי הזמנה</h1>
+        <h2>מלאו את הפרטים הבאים:</h2><br>
+             שם פרטי: <input type="text" id="fname" name="fname"><br><br>
+             שם משפחה: <input type="text" id="lname" name="lname"> <br><br>
+             כתובת למשלוח: <input type="text" id="address" name="address"><br><br>
+             מספר טלפון: <input type="text" id="pnumber" name="pnumber"><br><br>
+             מספר כרטיס אשראי: <input type="text" id="creditcard" name="ccard"><br><br>
+             תוקף כרטיס אשראי: <input type="text" id="expdate" name="expdate"><br><br>
+             CVV: <input type="text" id="cvv" name="cvv">
+        <br><br>
+         <input type="button" value="שלח" onclick="orderDetails()" class="custom-button">
+</form>
+</main>
+</body>
+</html>
